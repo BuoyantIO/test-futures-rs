@@ -1,0 +1,12 @@
+[package]
+name = "test_futures"
+version = "0.0.1"
+authors = ["Oliver Gould <ver@buoyant.io>"]
+description = """
+Utilities for testing futures-rs implementations\
+
+Copied from futures-rs/tests/support.
+"""
+
+[dependencies]
+futures = "0.1"
