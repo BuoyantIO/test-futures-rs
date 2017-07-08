@@ -29,7 +29,7 @@ extern crate futures;
 // IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 // DEALINGS IN THE SOFTWARE.
 
-use futures::{Async, Stream};
+use futures::{Async, Future, Stream};
 use futures::executor::{self, Notify, NotifyHandle};
 use std::fmt;
 use std::sync::Arc;
