@@ -7,6 +7,12 @@ Utilities for testing futures-rs implementations\
 
 Copied from futures-rs/tests/support.
 """
+license = "MIT/Apache-2.0"
+keywords = ["futures", "async", "future"]
+repository = "https://github.com/buoyantio/test-futures-rs"
+homepage = "https://github.com/buoyantio/test-futures-rs"
+documentation = "https://docs.rs/futures"
+categories = ["asynchronous"]
 
 [dependencies]
-futures = "0.1"
+futures = "~0.1.14"
